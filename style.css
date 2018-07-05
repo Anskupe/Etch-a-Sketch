@@ -1,0 +1,41 @@
+html {
+    height: 100%;
+}
+
+:root {
+    --grid: 16;
+}
+
+body {
+    height: auto;
+    margin: 0;
+     padding: 0;
+     text-align: center;
+     background: linear-gradient(to top left, #1827f8 10%, #ab51ff 100%);
+}
+
+
+.grid-container{
+    border-radius: 1%;
+height: 598px;
+width: 598px;
+border:3px inset rgb(27, 2, 245);
+display: inline-grid;
+grid-template-columns: repeat(var(--grid), 1fr);
+grid-template-rows: repeat(var(--grid), 1fr);
+}
+
+#reset{
+    padding: 10px;
+    margin-top: 30px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(51, 49, 49);
+    border: 2px solid black;
+}
+
+h1 {
+   
+    margin-top: 30px;
+    font-size: 50px;
+}
