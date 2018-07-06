@@ -1,1 +1,1 @@
-Etch a Sketch project..continue..
+Etch a Sketch project!
